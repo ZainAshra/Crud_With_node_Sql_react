@@ -1,0 +1,24 @@
+.fancyscroll::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    cursor: pointer; /* Adjust the width of the scrollbar */
+  }
+  
+  .fancyscroll::-webkit-scrollbar-thumb {
+    background-color:rgb(55, 55, 50);
+    cursor: pointer;
+    border-radius: 1px; /* Adjust the border-radius for a rounded appearance */
+  }
+
+  .fancyscroll::-webkit-scrollbar-track {
+    background-color: #ded6d6; /* Color of the track */
+  }
+  .fancyscroll::-webkit-scrollbar-thumb:hover {
+    background-color: #7e7979;
+     cursor: pointer;
+     /* Color of the scrollbar thumb on hover */
+  }
+  
+  .fancyscroll::-webkit-scrollbar-thumb:active {
+    background-color: #333; /* Color of the scrollbar thumb when clicked */
+  }
